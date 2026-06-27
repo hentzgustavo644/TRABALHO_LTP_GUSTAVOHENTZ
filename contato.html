@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+        <header>
+        <h1>Hentz Eletrônicos</h1>
+        <h2>Inovação, qualidade e tecnologia para o seu dia a dia.</h2>
+    </header>
+        <nav class="nav">
+            <a href="index.html">Página Inicial</a>
+            <a href="produto.html">Produtos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    <main>
+        <h3>Entre em contato com a equipe Hentz Eletrônicos para tirar dúvidas, solicitar orçamentos, receber atendimento especializado. Venha já montar seu setup dos sonhos</h3>
+        <section>
+            <form name="contato" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" name="Nome" id="nome">
+
+                <label for="email">E-mail:</label>
+                <input type="text" name="Email" id="email">
+
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="Telefone" id="telefone">
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" name="Assunto" id="assunto">
+                
+                <label for="atendimento">Categoria de Atendimento:</label>
+                <select name="Categoria De Atendimento" id="atendimento">
+                    <option value=""></option>
+                    <option value="1">Dúvidas</option>
+                    <option value="2">Orçamentos</option>
+                    <option value="3">Suporte</option>
+
+                </select>
+                <input type="submit" name="btnsalvar" id="salvar" value="Enviar">
+                <input type="reset" name="btnlimpar" id="limpar" value="Limpar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Hentz Eletrônicos</p>
+        <p>Rua dos Melhor, nº 22, Bairro Santa Barbara, Paraná, CEP: 85-760.000</p>
+        <p>gustavo@gmail.com</p>
+        <p>&copy;2026, todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,109 @@
+/*Estilização do cabeçalho*/
+header{
+    text-align: left;
+    text-transform: uppercase;
+    color: White;
+    background-color: rgb(68, 57, 143);
+}
+header h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 80px;
+}
+header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0px;
+    font-size: 1rem;
+}
+
+
+/*Menu de navegação*/
+nav{
+    background-color: darkslateblue;
+    text-align: right;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+    height: 30px;
+    padding-top: 10px;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+nav a:link, nav a:visited{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+
+/*Estilização do rodapé*/
+footer{
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+/*estilização do main*/
+body {
+    margin: 0;
+    padding: 0;
+}
+/*Essa estilização usei o inline block, display e algumas outras funções que faz a mesma função que a estilização que fizemos ultima aula com o flexbox, não me recordo de termos visto isso em sala porém pesquise ino w3shools e conseguir fazer o código*/
+aside, section{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+aside{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-right: -4px;
+    background-color: lightgray;
+}
+.links a{
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: darkslateblue;
+}
+.links a:hover{
+    background-color: white;
+    color: darkslateblue;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+section{
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+section img {
+    max-width: 100%;
+    width: 85%;
+    height: auto;
+    margin: 20px;
+
+    border-radius: 8px;
+}
+section h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}

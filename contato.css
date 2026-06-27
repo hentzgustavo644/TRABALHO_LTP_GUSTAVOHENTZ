@@ -1,0 +1,101 @@
+/*Estilização do cabeçalho*/
+header{
+    text-align: left;
+    text-transform: uppercase;
+    color: White;
+    background-color: rgb(68, 57, 143);
+}
+header h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 80px;
+}
+header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0px;
+    font-size: 1rem;
+}
+
+
+/*Menu de navegação*/
+nav{
+    background-color: darkslateblue;
+    text-align: right;
+    text-decoration: none;
+    height: 30px;
+    padding-top: 10px;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+nav a:link, nav a:visited{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+
+/*Estilização do rodapé*/
+footer{
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*estilização do main/formulário*/
+body {
+    margin: 0;
+    padding: 0;
+}
+main h3 {
+    text-align: center;
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid darkslateblue;
+    border-radius: 8px;
+}
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: darkslateblue;
+}
+input[type="text"], select {
+    display: block;
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid darkslateblue;
+    border-radius: 4px;
+}
+input[type="submit"], input[type="reset"] {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: darkslateblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"] {
+    margin-right: 5px;
+}
